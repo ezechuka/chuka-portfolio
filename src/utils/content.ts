@@ -1,4 +1,8 @@
 import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
+import memojiAvatar1 from "@/assets/images/memoji-avatar-1.png";
+import memojiAvatar2 from "@/assets/images/memoji-avatar-2.png";
+import memojiAvatar3 from "@/assets/images/memoji-avatar-3.png";
+import memojiAvatar4 from "@/assets/images/memoji-avatar-4.png";
 
 export const portfolioContent = {
   heroContent: {
@@ -50,4 +54,30 @@ export const portfolioContent = {
       },
     ],
   },
+  testimonialContent: [
+    {
+      name: "Stanley Akpama",
+      position: "Senior Developer @ TechStartups",
+      text: "Alex was instrumental in transforming our website into a powerful marketing tool. His attention to detail and ability to understand our brand is exceptional. We're thrilled with the results!",
+      avatar: memojiAvatar1,
+    },
+    {
+      name: "Joshua Akpama",
+      position: "Fullstack Developer @ TechStartups",
+      text: "Alex was instrumental in transforming our website into a powerful marketing tool. His attention to detail and ability to understand our brand is exceptional. We're thrilled with the results!",
+      avatar: memojiAvatar2,
+    },
+    {
+      name: "Frank Ediku",
+      position: "Mobile Developer @ TechStartups",
+      text: "Alex was instrumental in transforming our website into a powerful marketing tool. His attention to detail and ability to understand our brand is exceptional. We're thrilled with the results!",
+      avatar: memojiAvatar3,
+    },
+    {
+      name: "John Edem",
+      position: "Product Manager @ Katangwa",
+      text: "Alex was instrumental in transforming our website into a powerful marketing tool. His attention to detail and ability to understand our brand is exceptional. We're thrilled with the results!",
+      avatar: memojiAvatar4,
+    },
+  ],
 };
