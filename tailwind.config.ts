@@ -34,9 +34,18 @@ const config: Config = {
             transform: "translateX(-50%)",
           },
         },
+        "move-right": {
+          "0%": {
+            transform: "translateX(-50%)",
+          },
+          "100%": {
+            transform: "translateX(0%)",
+          },
+        },
       },
       animation: {
         "move-left": "move-left linear infinite",
+        "move-right": "move-right linear infinite",
       },
     },
   },

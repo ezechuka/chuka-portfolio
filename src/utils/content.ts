@@ -3,6 +3,7 @@ import memojiAvatar1 from "@/assets/images/memoji-avatar-1.png";
 import memojiAvatar2 from "@/assets/images/memoji-avatar-2.png";
 import memojiAvatar3 from "@/assets/images/memoji-avatar-3.png";
 import memojiAvatar4 from "@/assets/images/memoji-avatar-4.png";
+import ReactIcon from "@/assets/icons/react.svg";
 
 export const portfolioContent = {
   heroContent: {
@@ -80,4 +81,55 @@ export const portfolioContent = {
       avatar: memojiAvatar4,
     },
   ],
+  aboutContent: {
+    toolboxItems: [
+      { title: "React", iconType: ReactIcon },
+      { title: "JavaScript", iconType: ReactIcon },
+      { title: "JavaScript", iconType: ReactIcon },
+      { title: "JavaScript", iconType: ReactIcon },
+      { title: "JavaScript", iconType: ReactIcon },
+      { title: "JavaScript", iconType: ReactIcon },
+      { title: "JavaScript", iconType: ReactIcon },
+    ],
+  },
+  hobbyContent: {
+    hobbies: [
+      {
+        title: "Gaming",
+        emoji: "🎮",
+        left: "5%",
+        top: "5%",
+      },
+      {
+        title: "Movies",
+        emoji: "📽️",
+        left: "50%",
+        top: "5%",
+      },
+      {
+        title: "Hiking",
+        emoji: "🥾",
+        left: "25%",
+        top: "40%",
+      },
+      {
+        title: "Music",
+        emoji: "🎵",
+        left: "65%",
+        top: "45%",
+      },
+      {
+        title: "Fitness",
+        emoji: "🏋🏾",
+        left: "5%",
+        top: "65%",
+      },
+      {
+        title: "Reading",
+        emoji: "📚",
+        left: "45%",
+        top: "70%",
+      },
+    ],
+  },
 };
