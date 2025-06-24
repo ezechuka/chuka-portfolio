@@ -1,9 +1,19 @@
-import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
+import rayAngPage from "@/assets/images/ray-ang.png";
+import aiSeoLandingPage from "@/assets/images/ai-seo-landing-page.png";
+import spherealAiLandingPage from "@/assets/images/sphereal-ai-landing-page.png";
+import layersLandingPage from "@/assets/images/layers-landing-page.png";
 import memojiAvatar1 from "@/assets/images/memoji-avatar-1.png";
 import memojiAvatar2 from "@/assets/images/memoji-avatar-2.png";
 import memojiAvatar3 from "@/assets/images/memoji-avatar-3.png";
 import memojiAvatar4 from "@/assets/images/memoji-avatar-4.png";
 import ReactIcon from "@/assets/icons/react.svg";
+import NextIcon from "@/assets/icons/next.svg";
+import GithubIcon from "@/assets/icons/github.svg";
+import TypeScriptIcon from "@/assets/icons/typescript.svg";
+import TailwindCSSIcon from "@/assets/icons/tailwindcss.svg";
+import DockerIcon from "@/assets/icons/docker.svg";
+import GithubActionIcon from "@/assets/icons/actions.svg";
+import MotionIcon from "@/assets/icons/framer-motion.svg";
 
 export const portfolioContent = {
   heroContent: {
@@ -18,78 +28,115 @@ export const portfolioContent = {
       "See how I transformed concepts into engaging digital experiences.",
     projects: [
       {
-        company: "Acme Corp",
-        year: "2022",
-        title: "Dark Saas Landing Page",
+        company: "RAY-ANG",
+        year: "2024",
+        title: "Multivendor eCommerce Platform",
         results: [
-          { title: "Enhanced user experience by 40%" },
-          { title: "Improved site speed by 50%" },
-          { title: "Increased mobile traffic by 35%" },
+          { title: "Integrated Paystack with secure, PCI-compliant flows" },
+          {
+            title:
+              "Implemented role-based access control (RBAC) for vendors/admins",
+          },
+          {
+            title:
+              "Deployed via Docker/CI/CD pipeline for zero-downtime updates",
+          },
         ],
-        link: "https://youtu.be/4k7IdSLxh6w",
-        image: darkSaasLandingPage,
+        link: "https://45.156.23.140/staging",
+        image: rayAngPage,
       },
       {
-        company: "Innovative Co",
-        year: "2021",
-        title: "Light Saas Landing Page",
-        results: [
-          { title: "Boosted sales by 20%" },
-          { title: "Expanded customer reach by 35%" },
-          { title: "Increased brand awareness by 15%" },
-        ],
-        link: "https://youtu.be/7hi5zwO75yc",
-        image: darkSaasLandingPage,
-      },
-      {
-        company: "Quantum Dynamics",
-        year: "2023",
+        company: "sphereal AI",
+        year: "2025",
         title: "AI Startup Landing Page",
         results: [
-          { title: "Enhanced user experience by 40%" },
-          { title: "Improved site speed by 50%" },
-          { title: "Increased mobile traffic by 35%" },
+          { title: "Page loads in 1.2s (92 Lighthouse performance score)" },
+          {
+            title:
+              "Achieved 95+ SEO score on Lighthouse due to SSR and semantic HTML",
+          },
+          {
+            title:
+              "Fully responsive with mobile-first layout and dynamic animations on scroll",
+          },
         ],
-        link: "https://youtu.be/Z7I5uSRHMHg",
-        image: darkSaasLandingPage,
+        link: "https://sphereal-ai-landing-page.vercel.app/",
+        image: spherealAiLandingPage,
+      },
+      {
+        company: "landing page",
+        year: "2025",
+        title: "AI Seo Landing Page",
+        results: [
+          { title: "Page loads in 1.1s (95 Lighthouse performance score)" },
+          {
+            title:
+              "Used Framer Motion for page transitions and component reveals, reducing layout shift",
+          },
+          {
+            title:
+              "Fully responsive with mobile-first layout and dynamic animations on scroll",
+          },
+        ],
+        link: "https://ai-seo-landing-page-nine.vercel.app/",
+        image: aiSeoLandingPage,
+      },
+      {
+        company: "layers",
+        year: "2025",
+        title: "UI/UX collaborative landing page",
+        results: [
+          { title: "Page loads in 1.4s (89 Lighthouse performance score)" },
+          {
+            title:
+              "Fully responsive with mobile-first layout and dynamic animations on scroll",
+          },
+          {
+            title:
+              "mplemented scroll-based animations with Framer Motion to enhance storytelling and user engagement",
+          },
+        ],
+        link: "https://layers-saas-landing-page-alpha.vercel.app/",
+        image: layersLandingPage,
       },
     ],
   },
   testimonialContent: [
     {
       name: "Stanley Akpama",
-      position: "Senior Developer @ TechStartups",
-      text: "Alex was instrumental in transforming our website into a powerful marketing tool. His attention to detail and ability to understand our brand is exceptional. We're thrilled with the results!",
+      position: "Senior Developer @ Bayzat",
+      text: "The landing page Chukwuka built for our AI tool not only looked amazing but actually performed. We saw a 22% increase in signups within the first week. He really understands how design, performance, and conversion work together.",
       avatar: memojiAvatar1,
     },
     {
-      name: "Joshua Akpama",
-      position: "Fullstack Developer @ TechStartups",
-      text: "Alex was instrumental in transforming our website into a powerful marketing tool. His attention to detail and ability to understand our brand is exceptional. We're thrilled with the results!",
+      name: "Joshua Osemwinge",
+      position: "Fullstack Developer",
+      text: "What sets Chukwuka apart is his ability to balance creativity with technical precision. From SSR in Next.js to smooth Framer Motion animations, everything was built to scale and easy to maintain. He\'s the kind of dev you want long-term.",
       avatar: memojiAvatar2,
     },
     {
       name: "Frank Ediku",
-      position: "Mobile Developer @ TechStartups",
-      text: "Alex was instrumental in transforming our website into a powerful marketing tool. His attention to detail and ability to understand our brand is exceptional. We're thrilled with the results!",
+      position: "Mobile Developer @ Etsy",
+      text: "We hired Chukwuka to build the frontend for our multi-vendor eCommerce platform, and he exceeded expectations. The site was lightning-fast, beautifully responsive, and technically solid. He also added a custom dashboard that made managing vendors super easy.",
       avatar: memojiAvatar3,
     },
     {
       name: "John Edem",
       position: "Product Manager @ Katangwa",
-      text: "Alex was instrumental in transforming our website into a powerful marketing tool. His attention to detail and ability to understand our brand is exceptional. We're thrilled with the results!",
+      text: "Working with Chuka was a game-changer. He delivered a high-converting landing page that aligned perfectly with our brand and goals. The animations were subtle yet impactful, and the performance was flawless",
       avatar: memojiAvatar4,
     },
   ],
   aboutContent: {
     toolboxItems: [
       { title: "React", iconType: ReactIcon },
-      { title: "JavaScript", iconType: ReactIcon },
-      { title: "JavaScript", iconType: ReactIcon },
-      { title: "JavaScript", iconType: ReactIcon },
-      { title: "JavaScript", iconType: ReactIcon },
-      { title: "JavaScript", iconType: ReactIcon },
-      { title: "JavaScript", iconType: ReactIcon },
+      { title: "Nextjs", iconType: NextIcon },
+      { title: "TypeScript", iconType: TypeScriptIcon },
+      { title: "Framer motion", iconType: MotionIcon },
+      { title: "Github", iconType: GithubIcon },
+      { title: "Github Actions", iconType: GithubActionIcon },
+      { title: "TailwindCSS", iconType: TailwindCSSIcon },
+      { title: "Docker", iconType: DockerIcon },
     ],
   },
   hobbyContent: {
@@ -129,6 +176,18 @@ export const portfolioContent = {
         emoji: "📚",
         left: "45%",
         top: "70%",
+      },
+    ],
+  },
+  footerContent: {
+    footerLinks: [
+      {
+        title: "Twitter",
+        href: "#",
+      },
+      {
+        title: "LinkedIn",
+        href: "#",
       },
     ],
   },
