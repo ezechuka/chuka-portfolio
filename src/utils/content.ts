@@ -42,7 +42,7 @@ export const portfolioContent = {
               "Deployed via Docker/CI/CD pipeline for zero-downtime updates",
           },
         ],
-        link: "https://45.156.23.140/staging",
+        link: "https://185.177.116.151/staging",
         image: rayAngPage,
       },
       {
