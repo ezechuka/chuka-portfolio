@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const Projects = () => {
   return (
-    <section className="pb-16 lg:py-24">
+    <section id="projects" className="pb-16 lg:py-24">
       <div className="container">
         <SectionHeader
           sectionEyebrow={portfolioContent.projectsContent.eyebrow}

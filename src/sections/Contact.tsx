@@ -3,7 +3,7 @@ import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 
 const Contact = () => {
   return (
-    <div className="py-16 pt-12 lg:py-24 lg:pt-20">
+    <div id="contact" className="py-16 pt-12 lg:py-24 lg:pt-20">
       <div className="container">
         <div className="portfolio-theme-gradient relative z-0 overflow-hidden rounded-3xl px-10 py-8 text-center text-gray-900 md:text-left">
           <div
@@ -23,7 +23,7 @@ const Contact = () => {
               </p>
             </div>
             <div>
-              <a href="https://www.google.com" target="_blank">
+              <a href="https://linkedin.com/in/iameze/" target="_blank">
                 <button className="inline-flex h-12 w-max items-center gap-2 rounded-xl border border-gray-900 bg-gray-900 px-6 text-white">
                   <span className="font-semibold">Contact Me</span>
                   <ArrowUpRightIcon className="size-4" />

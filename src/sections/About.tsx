@@ -15,7 +15,7 @@ import { useRef } from "react";
 const About = () => {
   const constrainRef = useRef(null);
   return (
-    <div className="py-20">
+    <div id="about" className="py-20">
       <div className="container">
         <SectionHeader
           sectionEyebrow="About me"

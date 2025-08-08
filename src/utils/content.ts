@@ -182,12 +182,8 @@ export const portfolioContent = {
   footerContent: {
     footerLinks: [
       {
-        title: "Twitter",
-        href: "#",
-      },
-      {
         title: "LinkedIn",
-        href: "#",
+        href: "https://linkedin.com/in/iameze/",
       },
     ],
   },
