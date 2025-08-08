@@ -130,7 +130,7 @@ const Hero = () => {
           <button
             className="inline-flex h-12 items-center gap-2 rounded-xl border border-white/15 px-6"
             onClick={() => {
-              const element = document.getElementById("works");
+              const element = document.getElementById("projects");
               element?.scrollIntoView({ behavior: "smooth" });
             }}
           >
